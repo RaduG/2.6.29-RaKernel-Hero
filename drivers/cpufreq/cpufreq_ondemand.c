@@ -29,12 +29,12 @@
  * It helps to keep variable names smaller, simpler
  */
 
-#define DEF_FREQUENCY_DOWN_DIFFERENTIAL		(10)
-#define DEF_FREQUENCY_UP_THRESHOLD		(80)
+#define DEF_FREQUENCY_DOWN_DIFFERENTIAL		(30)
+#define DEF_FREQUENCY_UP_THRESHOLD		(70)
 #define MICRO_FREQUENCY_DOWN_DIFFERENTIAL	(3)
 #define MICRO_FREQUENCY_UP_THRESHOLD		(95)
-#define MIN_FREQUENCY_UP_THRESHOLD		(11)
-#define MAX_FREQUENCY_UP_THRESHOLD		(100)
+#define MIN_FREQUENCY_UP_THRESHOLD		(15)
+#define MAX_FREQUENCY_UP_THRESHOLD		(90)
 
 /*
  * The polling frequency of this governor depends on the capability of
